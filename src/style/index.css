@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: lightgray;
 }
 
 * {
@@ -17,4 +18,66 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.navbarContainer {
+  background-color: #29487d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_register {
+  padding-left: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline;
+  padding-right: 8px;
+}
+
+.register_button {
+  background-color: #69a74e;
+  color: white;
+  border: 0;
+  align-self: center;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.join_login {
+  padding-right: 20%;
+}
+
+.body_context {
+  padding: 20px 20% 0 20%;
+}
+
+.picture_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.left_part,
+.right_part {
+  width: 47%;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.picture_info {
+  align-self: center;
+}
+
+.text_format {
+  font-size: small;
+  color: darkgrey;
+}
+
+.button_style {
+  margin-top: 50px;
 }

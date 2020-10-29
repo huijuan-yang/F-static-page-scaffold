@@ -6,7 +6,7 @@
   "author": "杜娟 <jdu.xian@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel src/index.html --open",
     "lint": "eslint \"src/\" --cache --fix --format table",
     "format": "prettier --write \"src/**/*.{js,css}\""
   },

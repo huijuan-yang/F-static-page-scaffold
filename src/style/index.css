@@ -20,14 +20,14 @@ ul {
   padding: 0;
 }
 
-.navbarContainer {
+.navbar-container {
   background-color: #29487d;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo_register {
+.logo-register {
   padding-left: 20%;
   display: flex;
   justify-content: space-between;
@@ -36,9 +36,10 @@ ul {
 .logo {
   display: inline;
   padding-right: 8px;
+  color: white;
 }
 
-.register_button {
+.register-button {
   background-color: #69a74e;
   color: white;
   border: 0;
@@ -47,37 +48,34 @@ ul {
   border-radius: 3px;
 }
 
-.join_login {
+.join-login {
   padding-right: 20%;
+  color: white;
 }
 
-.body_context {
+.body-context {
   padding: 20px 20% 0 20%;
 }
 
-.picture_container {
+.picture-container {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
 
-.left_part,
-.right_part {
+.left-part,
+.right-part {
   width: 47%;
   background-color: white;
   text-align: center;
   padding: 20px;
 }
 
-.picture_info {
-  align-self: center;
-}
-
-.text_format {
+.text-format {
   font-size: small;
   color: darkgrey;
 }
 
-.button_style {
+.button-style {
   margin-top: 50px;
 }
